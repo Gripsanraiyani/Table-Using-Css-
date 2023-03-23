@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 5px solid cadetblue;
+            border-radius: 30px;
+            border-collapse: collapse;
+            width: 400px;
+        }
+        th, td{
+            text-align: center;
+            padding: 8px;
+        }
+        tr:nth-child(odd){
+            background-color: wheat;
+            color: darkcyan;
+        }
+        th{
+            background-color: darkcyan;
+            color: white;
+        }
+        table tr td:hover{
+            border: 2px solid  darkgrey;
+            background-color: lightseagreen;
+            color: black;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4" style="border: 5px solid cadetblue; font-size: x-large;">Pont Table</th>
+        </tr>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>points</th>
+            <th>Team</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Het</td>
+            <td>95.66</td>
+            <td>Rcb</td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Abhi</td>
+            <td>91.36</td>
+            <td>GT</td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Vaibhav</td>
+            <td>90.56</td>
+            <td>DC</td>
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>Majid</td>
+            <td>87.52</td>
+            <td>KKR</td>
+        </tr>
+    </table>
+</body>
+</html>
